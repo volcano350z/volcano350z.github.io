@@ -20,7 +20,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 // Matches /start
-bot.onText(/start, function onPhotoText(msg) {
+bot.onText(/\/start/, function onPhotoText(msg) {
   bot.sendGame(msg.chat.id, gameName);
 });
 
