@@ -3,11 +3,11 @@
  */
 /* eslint-disable no-console */
 
-const TOKEN = process.env.TELEGRAM_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN';
-const gameName = process.env.TELEGRAM_GAMENAME || 'YOUR_TELEGRAM_GAMENAME';
+const TOKEN = process.env.1336052297:AAHwBo2c-EDCVBzvLGZm5P4G07DtAHeWl4k || 'YOUR_TELEGRAM_BOT_TOKEN';
+const gameName = process.env.di_sensat || 'YOUR_TELEGRAM_GAMENAME';
 // Specify '0' to use ngrok i.e. localhost tunneling
-let url = https://volcano350z.github.io || 'https://<PUBLIC-URL>';
-const port = 8080 || 8080;
+let url = process.env.https://volcano350z.github.io || 'https://<PUBLIC-URL>';
+const port = process.env.8080 || 8080;
 
 const TelegramBot = require('../..');
 const express = require('express');
